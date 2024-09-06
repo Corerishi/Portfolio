@@ -1,0 +1,479 @@
+<!-- Go to this github repo  https://github.com/ashiksanyo10/Port_Temp.git and clone it to your local machine -->
+<!-- Open the local copy of code and edit the templete -->
+
+
+<!-- Dont alter any tags, fill in you information on required field only and dont alter style.css and javascript file-->
+<!-- once editing the templete, Create a github repo and push the code-->
+<!-- you can host the website on gitpages or netlify  -->
+<!---->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Portfolio" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/fa62c117c7.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Rishi Raj</title>    <!-- Change it your name  --> .
+  </head>
+  <body class="light" id="top">
+    <header class="header center">
+      <h3>
+        <a href="" class="link"  
+          >{RR}. <!--insert your initials here --></a
+        >
+      </h3> <!--use the linkedIn or any link in above href-->
+
+      <nav class="nav center">
+        <ul class="nav__list center">
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#projects">Projects</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#skills">Skills</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#Internship">Internship</a>
+          </li>
+          <!--   <li class="nav__list-item">
+            <a class="link link--nav" href="#Exp">Experience</a>
+          </li>-->
+        </ul>
+
+        <button type="button" aria-label="toggle theme" class="btn btn--icon">
+          <i aria-hidden="true" id="btn-theme" class="fas fa-moon"></i>
+        </button>
+
+        <button
+          type="button"
+          aria-label="toggle navigation"
+          class="btn btn--icon nav__hamburger"
+        >
+          <i aria-hidden="true" class="fas fa-bars"></i>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <!-- About -->
+      <div class="about center">
+        <h1>Hi, I am <span class="about__name">Rishi Raj.</span></h1>
+        <h2 class="about__role">Software Developer</h2>
+        <p class="about__desc"> <!-- Edit the About make sure you add your degree!-->
+          I'm a Tech geek living in Bangalore, India. I love to solve problems and build things. Also an Ex-TCSer and presently a Post grad Data Science student at Christ University!
+        </p> <!-- about you -->
+        <br>
+        <a href="mailto:ashiksanyo01@gmail.com">Mail: rishiraj.xd@gmail.com</a><p> Contact: +91 9608261726</p>  <!--Change it to your mail id and contact no-->
+      </br>
+      
+
+        <div class="about__contact center">
+          <a href="https://drive.google.com/file/d/1Q76OoemkjftFQrBj2YYtF6N8fBS45R6m/view?usp=sharing" target="_blank"  > <!-- drive link for resume-->
+            <span class="btn btn--outline">Resume</span> 
+          </a>
+
+          <a
+            href="https://github.com/Corerishi" target="_blank"
+            aria-label="github"
+            class="link link--icon"
+          >
+            <i aria-hidden="true" class="fab fa-github"></i>
+          </a> <!-- Github profile Link-->
+
+          <a
+            href="https://www.linkedin.com/in/rishi-raj-9110a824a/" target="_blank"  
+            aria-label="linkedin"
+            class="link link--icon"
+          > 
+            <i aria-hidden="true" class="fab fa-linkedin"></i>
+          </a> <!-- LinledIn profile Link-->
+        </div>
+      </div>
+
+      <!-- Projects -->
+      <section id="projects" class="section projects">
+        <h2 class="section__title">Projects</h2>
+
+        <div class="projects__grid">
+          <div class="project">
+            <h3>ReCrafted</h3> <!--Peoject Title -->
+            <p class="project__description">
+              A Resale website for luxury items.
+            </p> <!--Project description-->
+            <ul class="project__stack">
+              <li class="project__stack-item">HTML</li>
+              <li class="project__stack-item">CSS</li>
+              <li class="project__stack-item">JavaScript</li>
+              <li class="project__stack-item">PHP</li>
+            </ul>
+
+            <a
+              href="https://github.com/Corerishi/Recrafted" target="_blank"
+              aria-label="source code"
+              class="link link--icon"
+            >  <!--Project link-->
+
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://example.com"
+              aria-label="live preview"
+              class="link link--icon"
+            > <!--Project demo or git link-->
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+
+          <div class="project">
+            <h3>Vehicle Detection and Counter</h3>
+            <p class="project__description">
+              A Vehicle Detector with Counter using OpenCV and YOLO
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">Python</li>
+              <li class="project__stack-item">YOLO</li>
+              <li class="project__stack-item">OpenCV</li>
+            </ul>
+
+            <a
+              href="https://github.com/Corerishi/Vehicle-Detection" target="_blank"
+              aria-label="https://github.com/Corerishi/Vehicle-Detection" target="_blank"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://example.com"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+
+          <div class="project">
+            <h3>To Do Site</h3>
+            <p class="project__description">
+              Developed a To do Site using Django.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">Python</li>
+              <li class="project__stack-item">Django</li>
+              <li class="project__stack-item">MySQL</li>
+            </ul>
+
+            <a
+              href="https://github.com/Corerishi/To-Do-Site" target="_blank"
+              aria-label="https://github.com/Corerishi/To-Do-Site" target="_blank"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://example.com"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section id="Internship" class="section Internship" id="Internship">
+        <h2 class="section__title">Internships</h2>
+
+      <div class="project">
+        <h3>Edunet Foundation (IBM)</h3>
+        <p class="project__description">
+          Data Analysis
+        </p>
+        <ul class="project__stack">
+          <li class="project__stack-item">IBM Cloud</li>
+          <li class="project__stack-item">Machine Learning</li>
+          <li class="project__stack-item">AI</li>
+        </ul>
+
+        <a
+          href=""  
+          aria-label="https://www.novypro.com/project/us-sales-dash" target="_blank"
+          class="link link--icon"
+        > <!-- Include the certification links and  -->
+          
+        </a>
+        <a
+          href="https://www.credly.com/badges/d8270c07-409e-4505-ac9c-3a1124668942/public_url"
+          aria-label="live preview"
+          class="link link--icon"
+        >
+          <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+        </a>
+      </div>
+
+      <div class="project">
+        <h3>Prodigy InfoTech</h3>
+        <p class="project__description">
+          Web Developer Intern
+        </p>
+        <ul class="project__stack">
+          <li class="project__stack-item">HTML</li>
+          <li class="project__stack-item">CSS</li>
+          <li class="project__stack-item">JavaScript</li>
+        </ul>
+
+        <a
+          href=""  
+          aria-label="https://www.novypro.com/project/us-sales-dash" target="_blank"
+          class="link link--icon"
+        > <!-- Include the certification links and  -->
+        </a>
+        <a
+          href="https://drive.google.com/file/d/1_8cMELPB6iHUgnNFUD9xDqjd4E2heOzP/view?usp=sharing"
+          aria-label="live preview"
+          class="link link--icon"
+        >
+          <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+        </a>
+      </div>
+
+      <div class="project">
+        <h3>InternPe</h3>
+        <p class="project__description">
+          Python Developement Intern
+        </p>
+        <ul class="project__stack">
+          <li class="project__stack-item">Python</li>
+        </ul>
+
+        <a
+          href=""  
+          aria-label="https://www.novypro.com/project/us-sales-dash" target="_blank"
+          class="link link--icon"
+        > <!-- Include the certification links and  -->
+        </a>
+        <a
+          href="https://drive.google.com/file/d/1c4J9HXc3vUYQekamor9ca9l1f3hMshkK/view?usp=sharing"
+          aria-label="live preview"
+          class="link link--icon"
+        >
+          <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+        </a>
+      </div>
+
+      <div class="project">
+        <h3>Cognifyz Technologies</h3>
+        <p class="project__description">
+          Java Software Developer Intern
+        </p>
+        <ul class="project__stack">
+          <li class="project__stack-item">Java</li>
+        </ul>
+
+        <a
+          href=""  
+          aria-label="https://www.novypro.com/project/us-sales-dash" target="_blank"
+          class="link link--icon"
+        > <!-- Include the certification links and  -->
+        </a>
+        <a
+          href="https://drive.google.com/file/d/1SH_UmvoNIj154HwWqfQwQtPOVNqt5DwR/view?usp=sharing"
+          aria-label="live preview"
+          class="link link--icon"
+        >
+          <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+      <section id="Internship" class="section Internship" id="Internship">
+        <h2 class="section__title">Certifications</h2>
+
+      <div class="project">
+        <h3>Emerging Technologies (AI & Cloud)</h3>
+        <p class="project__description">
+          Edunet Foundation in Collaboration with AICTE
+        </p>
+        <ul class="project__stack">
+          <li class="project__stack-item">AI</li>
+          <li class="project__stack-item">Machine Learning</li>
+          <li class="project__stack-item">Cloud Computing</li>
+        </ul>
+
+        <a
+          href=""  
+          aria-label="https://www.novypro.com/project/us-sales-dash" target="_blank"
+          class="link link--icon"
+        > <!-- Include the certification links and  -->
+          
+        </a>
+        <a
+          href="https://drive.google.com/file/d/1_o2-JZ821Rqfcv26yDKfI-egno2WXPWu/view?usp=sharing"
+          aria-label="live preview"
+          class="link link--icon"
+        >
+          <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+        </a>
+      </div>
+
+      <div class="project">
+        <h3>Getting Started with Enterprise Data Science - IBM</h3>
+        <p class="project__description">
+          Data Science roles and their use of technology applied to enterprise projects.
+        </p>
+        <ul class="project__stack">
+          <li class="project__stack-item">Data Exploration</li>
+          <li class="project__stack-item">IBM</li>
+          <li class="project__stack-item">Data Analysis Tools</li>
+        </ul>
+
+        <a
+          href=""  
+          aria-label="https://www.novypro.com/project/us-sales-dash" target="_blank"
+          class="link link--icon"
+        > <!-- Include the certification links and  -->
+          
+        </a>
+        <a
+          href="https://www.credly.com/badges/d8270c07-409e-4505-ac9c-3a1124668942/public_url"
+          aria-label="live preview"
+          class="link link--icon"
+        >
+          <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+        </a>
+      </div>
+
+      <div class="project">
+        <h3>Getting Started with Enterprise-grade AI - IBM</h3>
+        <p class="project__description">
+          Knowledge and understanding of the foundations of Artificial Intelligence for business
+        </p>
+        <ul class="project__stack">
+          <li class="project__stack-item"> AI Industry Adoption Trends</li>
+          <li class="project__stack-item"> Natural Language Processing</li>
+          <li class="project__stack-item"> Virtual Agents</li>
+        </ul>
+
+        <a
+          href=""  
+          aria-label="https://www.novypro.com/project/us-sales-dash" target="_blank"
+          class="link link--icon"
+        > <!-- Include the certification links and  -->
+          
+        </a>
+        <a
+          href="https://www.credly.com/badges/22d078a1-7755-48e9-bcbf-d42ec20cec29/public_url"
+          aria-label="live preview"
+          class="link link--icon"
+        >
+          <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+        </a>
+      </div>
+
+      <div class="project">
+        <h3>Product and Brand Management</h3>
+        <p class="project__description">
+          NPTEL
+        </p>
+        <ul class="project__stack">
+          <li class="project__stack-item">Product Development</li>
+          <li class="project__stack-item">Marketing</li>
+        </ul>
+
+        <a
+          href=""  
+          aria-label="https://www.novypro.com/project/us-sales-dash" target="_blank"
+          class="link link--icon"
+        > <!-- Include the certification links and  -->
+          
+        </a>
+        <a
+          href="https://archive.nptel.ac.in/noc/Ecertificate/?q=NPTEL23MG110S3323446620329380"
+          aria-label="live preview"
+          class="link link--icon"
+        >
+          <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+        </a>
+      </div>
+
+      <div class="project">
+        <h3>Techniques for Big Data Analytics</h3>
+        <p class="project__description">
+          Skillsoft
+        </p>
+        <ul class="project__stack">
+          <li class="project__stack-item">Big Data</li>
+          <li class="project__stack-item">Analytical Tools</li>
+        </ul>
+
+        <a
+          href=""  
+          aria-label="https://www.novypro.com/project/us-sales-dash" target="_blank"
+          class="link link--icon"
+        > <!-- Include the certification links and  -->
+          
+        </a>
+        <a
+          href="https://skillsoft.digitalbadges.skillsoft.com/dc67c509-3142-4447-9225-15dce620bbbf"
+          aria-label="live preview"
+          class="link link--icon"
+        >
+          <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+ <!-- duplicate the above section and you can change it to paper or experience-->
+
+      
+      <!-- Skills -->
+      <section class="section skills" id="skills">
+        <h2 class="section__title">Skills</h2>
+        <ul class="skills__list">
+          <li class="skills__list-item btn btn--plain">HTML</li>                        <!--You can fill in the elective course and you can remove extras-->
+          <li class="skills__list-item btn btn--plain">CSS</li>
+          <li class="skills__list-item btn btn--plain">JavaScript</li>
+          <li class="skills__list-item btn btn--plain">React</li>
+          <li class="skills__list-item btn btn--plain">Python</li>
+          <li class="skills__list-item btn btn--plain">Machine Learning</li>
+          <li class="skills__list-item btn btn--plain">JAVA</li>
+          <li class="skills__list-item btn btn--plain">MySQL</li>
+          <li class="skills__list-item btn btn--plain">PostgreSQL</li>
+          <li class="skills__list-item btn btn--plain">MongoDB</li>
+          <li class="skills__list-item btn btn--plain">Django</li>
+          <li class="skills__list-item btn btn--plain">Tally</li>
+        </ul>
+      </section>
+
+    <footer class="footer">
+      <a
+        href="" 
+        class="link footer__link"
+      >  
+        Created By Rishi! <!-- edit it to your name -->
+      </a>
+    </footer>
+
+    <div class="scroll-container">
+    <div class="scroll-top">
+      <a aria-label="Scroll up" href="#top">
+        <i aria-hidden="true" class="fas fa-arrow-up"></i>
+      </a>
+    </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
